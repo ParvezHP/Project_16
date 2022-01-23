@@ -22,9 +22,9 @@ class TopNeuCard extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text('B A L A N C E',
-                  style: TextStyle(color: Colors.grey[500], fontSize: 16)),
+                  style: TextStyle(color: Colors.black, fontSize: 16)),
               Text(
-                '\$' + balance,
+                '\Rp' + balance,
                 style: TextStyle(color: Colors.grey[800], fontSize: 40),
               ),
               Padding(
@@ -54,11 +54,11 @@ class TopNeuCard extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text('Income',
-                                style: TextStyle(color: Colors.grey[500])),
+                                style: TextStyle(color: Colors.grey[600])),
                             SizedBox(
                               height: 5,
                             ),
-                            Text('\$' + income,
+                            Text('\Rp' + income,
                                 style: TextStyle(
                                     color: Colors.grey[600],
                                     fontWeight: FontWeight.bold)),
@@ -88,11 +88,11 @@ class TopNeuCard extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text('Expense',
-                                style: TextStyle(color: Colors.grey[500])),
+                                style: TextStyle(color: Colors.grey[600])),
                             SizedBox(
                               height: 5,
                             ),
-                            Text('\$' + expense,
+                            Text('\Rp' + expense,
                                 style: TextStyle(
                                     color: Colors.grey[600],
                                     fontWeight: FontWeight.bold)),
@@ -108,7 +108,7 @@ class TopNeuCard extends StatelessWidget {
         ),
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(15),
-            color: Colors.grey[300],
+            color: Colors.blue[100],
             boxShadow: [
               BoxShadow(
                   color: Colors.grey.shade500,

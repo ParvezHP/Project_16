@@ -104,7 +104,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 actions: <Widget>[
                   MaterialButton(
-                    color: Colors.grey[600],
+                    color: Colors.blue[400],
                     child:
                         Text('Cancel', style: TextStyle(color: Colors.white)),
                     onPressed: () {
@@ -112,7 +112,7 @@ class _HomePageState extends State<HomePage> {
                     },
                   ),
                   MaterialButton(
-                    color: Colors.grey[600],
+                    color: Colors.blue[400],
                     child: Text('Enter', style: TextStyle(color: Colors.white)),
                     onPressed: () {
                       if (_formKey.currentState!.validate()) {

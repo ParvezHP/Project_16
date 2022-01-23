@@ -47,7 +47,7 @@ class MyTransaction extends StatelessWidget {
                 ],
               ),
               Text(
-                (expenseOrIncome == 'expense' ? '-' : '+') + '\$' + money,
+                (expenseOrIncome == 'expense' ? '-' : '+') + '\ Rp' + money,
                 style: TextStyle(
                   //fontWeight: FontWeight.bold,
                   fontSize: 16,

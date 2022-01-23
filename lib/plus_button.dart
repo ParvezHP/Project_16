@@ -13,13 +13,13 @@ class PlusButton extends StatelessWidget {
         height: 75,
         width: 75,
         decoration: BoxDecoration(
-          color: Colors.grey[500],
+          color: Colors.blue[300],
           shape: BoxShape.circle,
         ),
         child: Center(
           child: Text(
             '+',
-            style: TextStyle(color: Colors.white, fontSize: 25),
+            style: TextStyle(color: Colors.white, fontSize: 30),
           ),
         ),
       ),
